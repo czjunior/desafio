@@ -77,7 +77,7 @@ class UserController extends Controller
 
         if(!empty($_POST['g-recaptcha-response'])){
             $url = "https://www.google.com/recaptcha/api/siteverify";
-            $secret = "6LeVbl8gAAAAAAxqdTn3kwlLWG6gdyLrM79FbGJ3";
+            $secret = env('GOOGLE_RECAPTCHA_SECRET');
             $response = $_POST['g-recaptcha-response'];
             $variaveis = "secret=".$secret."&response=".$response;
             
