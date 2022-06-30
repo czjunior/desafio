@@ -1,0 +1,157 @@
+/* GENERAL*/
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    border-bottom: 1px solid #CCC;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: #fab824;
+    border: 2px solid #848920;
+    color: #FFF;
+}
+
+.btn-primary:hover{
+    background-color: #616323;
+    border: 2px solid #fab824;
+    color: #FFF;
+}
+
+.btn-default{
+    background-color: #616323;
+    border: 2px solid #fab824;
+    color: #FFF;
+}
+
+.btn-default:hover{
+    background-color: #fab824;
+    border: 2px solid #616323;
+    color: #FFF;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* NAVBAR */
+
+#navbar img {
+    width: 50px;
+    padding-left: 15px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #848920;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fab824;
+}
+
+#navbar a:hover {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/* SEARCH CONTAINER */
+
+#search-container {
+    background-image: url(../img/image3.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color: #fab824;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#search{
+    border-radius: 40px;
+}
+
+#container {
+    padding: 50px;
+}
+
+#container h1{
+    color: #fab824;
+}
+
+#container h1{
+    color: #fab824;
+}
+
+#card-container h4{
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #d79602;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card{
+    /*flex: 1 1 0;*/
+    border-radius: 10px;
+    max-width: 30%;
+    padding: 0;
+    margin: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #848920;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
